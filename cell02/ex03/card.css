@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    margin: 50px auto;
+    background-color: white;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 24px;
+    padding: 20px;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0;
+}
+
+.profile {
+    width: 100%;
+    display: block;
+}
+
+.card h2 {
+    font-size: 28px;
+    margin: 20px 0 10px;
+}
+
+.description {
+    color: gray;
+}
+
+.socials {
+    margin: 20px 0;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.contact {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}

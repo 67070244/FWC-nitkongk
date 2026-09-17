@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nitkongk</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="bg-purple-50 text-purple-950">
+
+    <!-- Nav Bar -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-purple-100">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <div class="flex items-center justify-between h-16">
+
+                <a href="../index.html" class="text-xl font-bold text-purple-700">
+                    nitkongk
+                </a>
+
+                <!-- Desktop -->
+                <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                    <a href="../index.html" class="text-purple-700 hover:text-purple-500 transition">
+                        Home
+                    </a>
+
+                    <a href="#about" class="text-purple-700 hover:text-purple-500 transition">
+                        About
+                    </a>
+
+                    <a href="#showcase" class="text-purple-700 hover:text-purple-500 transition">
+                        Showcase
+                    </a>
+
+                    <a href="#contact" class="text-purple-700 hover:text-purple-500 transition">
+                        Contact
+                    </a>
+                </div>
+
+                <!-- Phone -->
+                <button id="menu-btn" class="md:hidden text-purple-700 text-2xl focus:outline-none">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Phone Nav-->
+            <div id="mobile-menu" class="hidden md:hidden pb-5">
+                <div class="flex flex-col gap-4 text-sm font-medium">
+
+                    <a href="../index.html" class="text-purple-700 hover:text-purple-500 transition">
+                        Home
+                    </a>
+
+                    <a href="#about" class="text-purple-700 hover:text-purple-500 transition">
+                        About
+                    </a>
+
+                    <a href="#showcase" class="text-purple-700 hover:text-purple-500 transition">
+                        Showcase
+                    </a>
+
+                    <a href="#contact" class="text-purple-700 hover:text-purple-500 transition">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="min-h-screen flex items-center justify-center px-6 pt-16">
+            <div class="max-w-5xl w-full text-center">
+                <p class="text-sm uppercase tracking-[0.3em] text-purple-500 mb-5">
+                    Welcome to my portfolio
+                </p>
+
+                <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6">
+                    Hi, I'm
+                    <span class="text-purple-600">
+                        Plai
+                    </span>
+                </h1>
+
+                <p class="max-w-2xl mx-auto text-lg md:text-xl text-purple-600 leading-relaxed mb-10">
+                    Welcome to my personal portfolio.
+                    Here you can learn more about me, my skills,
+                    and the activities I have participated in.
+                </p>
+
+                <a href="#about" class="inline-block px-7 py-3 rounded-full bg-purple-600 text-white font-medium
+                          hover:bg-purple-700 hover:shadow-lg transition duration-300">
+                    Explore My Portfolio
+                </a>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="py-24 px-6 bg-white">
+
+            <div class="max-w-5xl mx-auto">
+
+                <div class="text-center mb-14">
+                    <p class="text-sm uppercase tracking-[0.3em] text-purple-500 mb-3">
+                        About Me
+                    </p>
+
+                    <h2 class="text-3xl md:text-4xl font-bold">
+                        Get to know me
+                    </h2>
+                </div>
+
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+                    <!-- Profile Image -->
+                    <div class="flex justify-center">
+
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-purple-200 rounded-3xl rotate-6"></div>
+
+                            <img src="images/profile.jpg" alt="Profile photo of nitkongk"
+                                class="relative w-64 h-64 md:w-80 md:h-80 object-cover rounded-3xl shadow-lg">
+                        </div>
+
+                    </div>
+
+                    <!-- About Text -->
+                    <div>
+
+                        <h3 class="text-2xl font-semibold mb-5">
+                            Hello!
+                        </h3>
+
+                        <p class="text-purple-700 leading-relaxed mb-5">
+                            My name is Nittayaporn Kongkaew, and my nickname is Plai
+                        </p>
+
+                        <p class="text-purple-700 leading-relaxed mb-8">
+                            I am interested in technology and enjoy learning new skills
+                            through hands-on experience and practical activities.
+                        </p>
+
+                        <!-- Card -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                            <div class="p-4 rounded-xl bg-purple-50">
+                                <p class="text-sm text-purple-500">
+                                    Education
+                                </p>
+
+                                <p class="font-medium mt-1">
+                                    Junior student at School of Information Technology
+                                </p>
+                            </div>
+
+
+                            <div class="p-4 rounded-xl bg-purple-50">
+                                <p class="text-sm text-purple-500">
+                                    University
+                                </p>
+
+                                <p class="font-medium mt-1">
+                                    KMITL
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Showcase Section -->
+        <section id="showcase" class="py-24 px-6 bg-purple-50">
+
+            <div class="max-w-5xl mx-auto">
+
+                <div class="text-center mb-14">
+                    <p class="text-sm uppercase tracking-[0.3em] text-purple-500 mb-3">
+                        Showcase
+                    </p>
+
+                    <h2 class="text-3xl md:text-4xl font-bold">
+                        Skills & Activities
+                    </h2>
+
+                    <p class="mt-4 text-purple-600">
+                        Some of the technologies and projects I have explored.
+                    </p>
+                </div>
+
+                <!-- Skills -->
+                <div class="mb-14">
+                    <h3 class="text-2xl font-semibold mb-6">
+                        Skills
+                    </h3>
+
+                    <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+
+                        <!-- HTML -->
+                        <div class="group p-6 bg-white rounded-2xl border border-purple-100 text-center shadow-sm hover:shadow-lg
+                            hover:-translate-y-1 transition duration-300">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                                alt="HTML" class="w-14 h-14 mx-auto mb-4 group-hover:scale-110 transition duration-300">
+                            <p class="font-medium text-purple-950">
+                                HTML
+                            </p>
+                        </div>
+
+                        <!-- CSS -->
+                        <div class="group p-6 bg-white rounded-2xl border border-purple-100 text-center shadow-sm hover:shadow-lg
+                            hover:-translate-y-1 transition duration-300">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                                alt="CSS" class="w-14 h-14 mx-auto mb-4 group-hover:scale-110 transition duration-300">
+                            <p class="font-medium text-purple-950">
+                                CSS
+                            </p>
+                        </div>
+
+                        <!-- Java -->
+                        <div class="group p-6 bg-white rounded-2xl border border-purple-100 text-center shadow-sm hover:shadow-lg
+                            hover:-translate-y-1 transition duration-300">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                alt="JavaScript"
+                                class="w-14 h-14 mx-auto mb-4 group-hover:scale-110 transition duration-300">
+                            <p class="font-medium text-purple-950">
+                                JavaScript
+                            </p>
+                        </div>
+
+                        <!-- Tailwind -->
+                        <div class="group p-6 bg-white rounded-2xl border border-purple-100 text-center shadow-sm hover:shadow-lg
+                            hover:-translate-y-1 transition duration-300">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                                alt="Tailwind CSS"
+                                class="w-14 h-14 mx-auto mb-4 group-hover:scale-110 transition duration-300">
+                            <p class="font-medium text-purple-950">
+                                Tailwind CSS
+                            </p>
+                        </div>
+
+                        <!-- Figma -->
+                        <div class="group p-6 bg-white rounded-2xl border border-purple-100 text-center shadow-sm hover:shadow-lg
+                            hover:-translate-y-1 transition duration-300">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                                alt="Figma"
+                                class="w-14 h-14 mx-auto mb-4 group-hover:scale-110 transition duration-300">
+                            <p class="font-medium text-purple-950">
+                                Figma
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activities -->
+                <div>
+
+                    <h3 class="text-2xl font-semibold mb-6">
+                        Activities
+                    </h3>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                        <!-- Activity 1 -->
+                        <div
+                            class="bg-white p-7 rounded-2xl border border-purple-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300">
+
+                            <h4 class="text-xl font-semibold mb-3">
+                                Web Development
+                            </h4>
+
+                            <p class="text-purple-600 leading-relaxed">
+                                Practicing HTML, CSS, JavaScript, Tailwind
+                                web design through hands-on activities.
+                            </p>
+                        </div>
+
+
+                        <!-- Activity 2 -->
+                        <div class="bg-white p-7 rounded-2xl border border-purple-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300">
+                            <h4 class="text-xl font-semibold mb-3">
+                                Networking Lab
+                            </h4>
+
+                            <p class="text-purple-600 leading-relaxed">
+                                Learning networking concepts through practical
+                                laboratory exercises and network configuration.
+                            </p>
+                        </div>
+
+
+                        <!-- Activity 3 -->
+                        <div class="bg-white p-7 rounded-2xl border border-purple-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300">
+                            <h4 class="text-xl font-semibold mb-3">
+                                IoT Activities
+                            </h4>
+
+                            <p class="text-purple-600 leading-relaxed">
+                                Exploring IoT technologies by working with
+                                microcontrollers, sensors, and connected devices.
+                            </p>
+                        </div>
+
+
+                        <!-- Activity 4 -->
+                        <div class="bg-white p-7 rounded-2xl border border-purple-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition duration-300">
+                            <h4 class="text-xl font-semibold mb-3">
+                                Piscine Discovery
+                            </h4>
+
+                            <p class="text-purple-600 leading-relaxed">
+                                Participating in Piscine Discovery to develop
+                                programming, problem-solving, and teamwork skills.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="mb-20 bg-purple-50">
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-12">
+                    <p class="text-sm uppercase tracking-[0.3em] text-purple-500 mb-3">
+                        contact
+                    </p>
+
+                    <h2 class="text-3xl md:text-4xl font-bold">
+                        Let's connect!
+                    </h2>
+
+                    <p class="mt-4 text-purple-600">
+                        Feel free to contact me!
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/67070244" class="group bg-white p-7 rounded-2xl border border-purple-100
+                       text-center shadow-sm hover:shadow-lg
+                       hover:-translate-y-1 transition duration-300">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                            alt="GitHub" class="w-14 h-14 mx-auto mb-4 group-hover:scale-110 transition duration-300">
+
+                        <h3 class="text-xl font-semibold text-purple-950">
+                            GitHub
+                        </h3>
+                    </a>
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/plai.nittayaporn.3?locale=th_TH" class="group bg-white p-7 rounded-2xl border border-purple-100
+           text-center shadow-sm hover:shadow-lg
+           hover:-translate-y-1 transition duration-300">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/facebook/facebook-original.svg"
+                            alt="Facebook" class="w-14 h-14 mx-auto mb-4 group-hover:scale-110 transition duration-300">
+
+                        <h3 class="text-xl font-semibold text-purple-950">
+                            Facebook
+                        </h3>
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/q._.plai/?hl=en" class="group bg-white p-7 rounded-2xl border border-purple-100
+           text-center shadow-sm hover:shadow-lg
+           hover:-translate-y-1 transition duration-300">
+                        <i class="fa-brands fa-instagram text-6xl mb-4
+              group-hover:scale-110 transition duration-300"></i>
+
+                        <h3 class="text-xl font-semibold text-purple-950">
+                            Instagram
+                        </h3>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="py-5 px-6 bg-purple-100 text-center">
+
+        <p class="text-sm text-purple-600">
+            © 2026 nitkongk · Team Meow
+        </p>
+
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+
+        const mobileLinks = mobileMenu.querySelectorAll("a");
+
+        mobileLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                mobileMenu.classList.add("hidden");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
