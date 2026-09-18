@@ -1,125 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Meow</title>
+    <title>Meow Team — Creative Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
-<body class="min-h-screen bg-purple-50 text-purple-950">
-
-    <main class="min-h-screen px-6 py-16">
-
-        <div class="max-w-4xl mx-auto text-center">
-
-            <p class="text-sm uppercase tracking-[0.3em] text-purple-500 mb-4">
-                Piscine Discovery · Rush
-            </p>
-
-            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-                Meow Team
-            </h1>
-
-            <p class="text-purple-600 text-lg md:text-xl mb-12">
-                WELCOME TO OUR COLLABORATIVE PORTFOLIO!
-            </p>
-
-
-            <!-- Portfolio Cards -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-                <!-- Plai -->
-                <a href="nitkongk/index.html"
-                    class="group block p-8 rounded-2xl bg-white border border-purple-100 shadow-sm hover:shadow-lg hover:border-purple-300 transition duration-300">
-
-                    <div class="mb-6">
-                        <div
-                            class="w-20 h-20 mx-auto rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-2xl font-bold">
-                            N
-                        </div>
-                    </div>
-
-                    <h2 class="text-2xl font-semibold mb-2">
-                        nitkongk
-                    </h2>
-
-                    <p class="text-purple-500 mb-6">
-                        View Portfolio
-                    </p>
-                </a>
-
-
-                <!-- P'Nuarm -->
-                <a href="trodpan/index.html"
-                    class="group block p-8 rounded-2xl bg-white border border-purple-100 shadow-sm hover:shadow-lg hover:border-purple-300 transition duration-300">
-
-                    <div class="mb-6">
-                        <div
-                            class="w-20 h-20 mx-auto rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-2xl font-bold">
-                            T
-                        </div>
-                    </div>
-
-                    <h2 class="text-2xl font-semibold mb-2">
-                        trodpan
-                    </h2>
-
-                    <p class="text-purple-500 mb-6">
-                        View Portfolio
-                    </p>
-                </a>
-
+<body class="bg-[#f6f3ed] text-[#24212b]">
+    <header class="bg-[#24212b] text-white">
+        <nav class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-5 border-b border-white/15 px-6 py-5" aria-label="Main navigation">
+            <a href="#home" class="text-2xl font-black tracking-tight">meow<span class="text-[#d7ff8c]">.</span></a>
+            <div class="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-medium sm:gap-x-8">
+                <a href="#home" class="text-[#d7ff8c] hover:text-white">Home</a>
+                <a href="#team" class="text-white/70 hover:text-white">Our team</a>
+                <a href="nitkongk/index.html" class="text-white/70 hover:text-white">Plai</a>
+                <a href="trodpan/index.html" class="text-white/70 hover:text-white">Nuarm</a>
             </div>
+        </nav>
+    </header>
 
-
-            <!-- Team Members -->
-            <section class="py-20 px-6 bg-purple-50">
-                <div class="max-w-5xl mx-auto">
-
-                    <div class="text-center mb-12">
-                        <h2 class="text-3xl md:text-4xl font-bold text-purple-950">
-                            TEAM MEMBERS
-                        </h2>
-                    </div>
-
-                    <!-- Members -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 justify-items-center">
-
-                        <!-- Plai -->
-                        <div class="text-center">
-                            <a href="nitkongk/index.html">
-                                <img src="nitkongk/images/profile.jpg" alt="" class="w-[250px] h-[250px] object-cover rounded-3xl
-                               border-3 border-white shadow-lg
-                               hover:scale-105 transition duration-300">
-                            </a>
-
-                            <h3 class="mt-6 text-xl md:text-xl font-medium text-purple-800">
-                                Nittayaporn Kongkaew
-                            </h3>
-                        </div>
-
-                        <!-- P'Nuarm -->
-                        <div class="text-center">
-                            <a href="trodpan/index.html">
-                                <img src="trodpan/images/profile.jpg" alt="" class="w-[250px] h-[250px] object-cover rounded-3xl
-                               border-3 border-white shadow-lg
-                               hover:scale-105 transition duration-300">
-                            </a>
-
-                            <h3 class="mt-6 text-xl md:text-xl font-medium text-purple-800">
-                                Tananupat Rodpan
-                            </h3>
-                        </div>
-
-                    </div>
+    <main>
+        <!-- Hero: a large headline and a simple decorative shape -->
+        <section id="home" class="overflow-hidden bg-[#24212b] text-white">
+            <div class="mx-auto grid max-w-6xl gap-12 px-6 pb-20 pt-12 md:grid-cols-2 md:items-center md:pb-28 md:pt-20">
+                <div>
+                    <p class="mb-6 text-xs font-bold uppercase tracking-[0.25em] text-[#d7ff8c]">Piscine Discovery / Rush Project</p>
+                    <h1 class="max-w-2xl text-6xl font-black leading-[0.95] tracking-tight sm:text-7xl lg:text-8xl">Two minds.<br><span class="text-[#d7ff8c]">One team.</span></h1>
+                    <p class="mt-8 max-w-md text-lg leading-relaxed text-white/70">We're Meow Team. This is our corner of the web to share who we are, what we enjoy, and what we're learning.</p>
+                    <a href="#team" class="mt-9 inline-block rounded-full bg-[#d7ff8c] px-7 py-3 font-semibold text-[#24212b] transition hover:-translate-y-1 hover:bg-white">Explore our work <svg class="ml-1 inline-block h-4 w-4 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></a>
                 </div>
-            </section>
-        </div>
+                <div class="relative mx-auto flex aspect-square w-full max-w-md items-center justify-center rounded-full border border-white/20 bg-[#37303f]">
+                    <div class="flex h-[78%] w-[78%] items-center justify-center rounded-full border border-[#d7ff8c]/50">
+                        <span class="-rotate-12 text-center text-6xl font-black leading-none tracking-tighter text-[#d7ff8c] sm:text-7xl">MEOW<br>TEAM<span class="text-white">*</span></span>
+                    </div>
+                    <span class="absolute -bottom-2 right-6 rounded-full bg-[#d7ff8c] px-5 py-3 text-sm font-bold text-[#24212b] rotate-12">Est. 2026</span>
+                </div>
+            </div>
+        </section>
 
+        <section id="team" class="scroll-mt-8 px-6 py-20 md:py-28">
+            <div class="mx-auto max-w-6xl">
+                <div class="mb-12 flex flex-wrap items-end justify-between gap-6 border-b border-[#24212b]/20 pb-7">
+                    <div>
+                        <p class="mb-3 text-xs font-bold uppercase tracking-[0.25em] text-[#765c9b]">01 / The people</p>
+                        <h2 class="text-4xl font-black tracking-tight sm:text-5xl">Meet the team<span class="text-[#9b78c9]">.</span></h2>
+                    </div>
+                    <p class="max-w-xs text-sm leading-relaxed text-[#625c69]">Get to know the people behind this project. Pick a card to open a portfolio.</p>
+                </div>
+
+                <div class="grid gap-7 md:grid-cols-2">
+                    <a href="nitkongk/index.html" class="group overflow-hidden rounded-[2rem] bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl focus-visible:outline focus-visible:outline-4 focus-visible:outline-[#9b78c9]">
+                        <div class="relative h-80 overflow-hidden bg-[#e8ddf7]">
+                            <img src="nitkongk/images/profile.jpg" alt="Nittayaporn Kongkaew" class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
+                            <span class="absolute left-6 top-6 rounded-full bg-white px-4 py-2 text-xs font-bold uppercase tracking-wider">01 / Plai</span>
+                        </div>
+                        <div class="flex items-end justify-between gap-4 p-7 sm:p-8">
+                            <div><p class="mb-2 text-sm font-medium text-[#765c9b]">nitkongk / Portfolio</p><h3 class="text-2xl font-bold tracking-tight sm:text-3xl">Nittayaporn Kongkaew</h3></div>
+                            <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#d7ff8c] text-2xl transition group-hover:rotate-45" aria-hidden="true"><svg class="ml-1 inline-block h-4 w-4 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></span>
+                        </div>
+                    </a>
+                    <a href="trodpan/index.html" class="group overflow-hidden rounded-[2rem] bg-white shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl focus-visible:outline focus-visible:outline-4 focus-visible:outline-[#9b78c9]">
+                        <div class="relative h-80 overflow-hidden bg-[#e8ddf7]">
+                            <img src="trodpan/images/profile.jpg" alt="Thananupat Rodpan" class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
+                            <span class="absolute left-6 top-6 rounded-full bg-white px-4 py-2 text-xs font-bold uppercase tracking-wider">02 / Nuarm</span>
+                        </div>
+                        <div class="flex items-end justify-between gap-4 p-7 sm:p-8">
+                            <div><p class="mb-2 text-sm font-medium text-[#765c9b]">trodpan / Portfolio</p><h3 class="text-2xl font-bold tracking-tight sm:text-3xl">Thananupat Rodpan</h3></div>
+                            <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#d7ff8c] text-2xl transition group-hover:rotate-45" aria-hidden="true"><svg class="ml-1 inline-block h-4 w-4 align-middle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M9 5h10v10"/></svg></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
-
+    <footer class="bg-[#24212b] px-6 py-12 text-white">
+        <div class="mx-auto grid max-w-6xl gap-10 sm:grid-cols-2 md:grid-cols-3">
+            <div>
+                <a href="#home" class="text-3xl font-black tracking-tight">meow<span class="text-[#d7ff8c]">.</span></a>
+                <p class="mt-4 max-w-xs text-sm leading-relaxed text-white/60">A small team sharing what we create and learn together.</p>
+            </div>
+            <div>
+                <h2 class="mb-4 text-sm font-bold uppercase tracking-widest text-[#d7ff8c]">Explore</h2>
+                <div class="flex flex-col gap-3 text-sm text-white/70">
+                    <a href="#home" class="hover:text-white">Home</a>
+                    <a href="#team" class="hover:text-white">Meet the team</a>
+                </div>
+            </div>
+            <div>
+                <h2 class="mb-4 text-sm font-bold uppercase tracking-widest text-[#d7ff8c]">Portfolios</h2>
+                <div class="flex flex-col gap-3 text-sm text-white/70">
+                    <a href="nitkongk/index.html" class="hover:text-white">Plai · nitkongk</a>
+                    <a href="trodpan/index.html" class="hover:text-white">Nuarm · trodpan</a>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto mt-12 flex max-w-6xl flex-wrap justify-between gap-3 border-t border-white/15 pt-6 text-xs text-white/50">
+            <p>© 2026 Meow Team</p>
+            <p>Piscine Discovery · Rush Project</p>
+        </div>
+    </footer>
 </body>
-
 </html>
